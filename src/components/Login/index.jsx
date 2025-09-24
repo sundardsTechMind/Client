@@ -20,7 +20,7 @@ const Login = () => {
 		e.preventDefault();
 
 		try {
-			const url = "http://localhost:8080/api/auth";
+			const url = "https://server-zgr3.onrender.com/api/auth";
 
 			const { data: res } = await axios.post(url, data);
 
